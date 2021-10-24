@@ -10,5 +10,8 @@ int main() {
     std::cout << "The next step is compilation, which is performed by the compiler.\n";
     std::cout << "The code is checked for the correct syntax. If there are no errors, the code will be converted into object code. A .obj file will also be generated.\n";
 
+    std::cout << "Introducing a syntax error and then rebuilding the code will result in a error list.\n";
+
+    std::cout << "One error may generate multiple error messages.\n";
     return 0;
 }
